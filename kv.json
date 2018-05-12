@@ -1,0 +1,30 @@
+{
+  "title":"KV learning history",
+  "projectName":[
+    "Angular 5 Tutorial",
+    "https://www.youtube.com/playlist?list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ"
+  ],
+  "10:19 AM, 10/05/2018":[
+    "Angular 5 Tutorial - 5 - Interpolation",
+    "https://youtu.be/2a6OfacW_-I?t=8m3s",
+    "https://www.youtube.com/watch?v=2a6OfacW_-I&list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ&index=4"
+  ],
+  "11:13 AM, 10/05/2018":[
+    "Angular 5 Tutorial - 6 - Property Binding",
+    "https://www.youtube.com/watch?v=N8FBmB2jme8&list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ&index=5",
+    "https://youtu.be/N8FBmB2jme8?t=7m24s"
+  ],
+  "04:12 PM, 10/05/2018":[
+    "Angular 5 Tutorial - 15 - Component Interaction",
+    "https://www.youtube.com/watch?v=BGy8DdGw_WE&index=14&list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ",
+    "https://youtu.be/BGy8DdGw_WE?t=9m28s"
+  ],
+  "11:42 AM, 12/05/2018":[
+    "Angular 6 Tutorial - 18 - Dependency Injection",
+    "https://www.youtube.com/watch?v=OFPIGlxunL0&list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ&index=16"
+  ],
+  "05:07 PM, 12/05/2018":[
+    "Angular 6 Tutorial - 23 - Routing and Navigation",
+    "https://www.youtube.com/watch?v=Nehk4tBxD4o&list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ&index=22"
+  ]
+}
