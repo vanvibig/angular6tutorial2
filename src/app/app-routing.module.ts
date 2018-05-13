@@ -7,10 +7,10 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   // {path: '', component: DepartmentListComponent},
-  {path: '', redirectTo: '/department', pathMatch: 'full'},
-  {path: 'department', component: DepartmentListComponent},
-  {path: 'department/:id', component: DepartmentDetailComponent},
-  {path: 'employee', component: EmployeeListComponent},
+  {path: '', redirectTo: '/departments', pathMatch: 'full'},
+  {path: 'departments', component: DepartmentListComponent},
+  {path: 'departments/:id', component: DepartmentDetailComponent},
+  {path: 'employees', component: EmployeeListComponent},
   {path: "**", component: PageNotFoundComponent}
 ];
 

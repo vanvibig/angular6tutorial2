@@ -30,16 +30,19 @@ export class DepartmentDetailComponent implements OnInit {
 
   goPrivous(){
     let priviousId = this.departmentId - 1;
-    this.router.navigate(['/department', priviousId]);
+    // this.router.navigate(['/department', priviousId]);
+    this.router.navigate(['../',priviousId], {relativeTo: this.route});
   }
   goNext(){
     let nextId = this.departmentId + 1;
-        this.router.navigate(['/department', nextId]);
+    // this.router.navigate(['/department', nextId]);
+    this.router.navigate(['../',nextId], {relativeTo: this.route});
   }
 
   gotoDepartments(){
     let selectedId = this.departmentId ? this.departmentId : null;
-    this.router.navigate(['/department',{id: selectedId, test: 'testvalue'}]);
+    // this.router.navigate(['/department',{id: selectedId, test: 'testvalue'}]);
+    this.router.navigate(['../',{id: selectedId}],{relativeTo: this.route});
   }
 
 }
