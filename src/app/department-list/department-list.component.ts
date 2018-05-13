@@ -6,12 +6,12 @@ import { Router } from "@angular/router";
   template: `
     <h3>Department List</h3>
     <ul class="items">
-      <li class="btn btn-default" (click)="onSelect(department)" *ngFor="let department of departments">
+      <li class="btn" (click)="onSelect(department)" *ngFor="let department of departments">
           <span class="badge">{{department.id}}</span> {{department.name}}
       </li>
     </ul>
   `,
-  styles: []
+  styleUrls: ['../app.component.css']
 })
 export class DepartmentListComponent implements OnInit {
   departments = [
